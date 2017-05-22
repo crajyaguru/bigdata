@@ -1,0 +1,33 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "clusterName": {
+            "value": "hdinsightCr"
+        },
+        "clusterLoginUserName": {
+            "value": "admin"
+        },
+        "clusterLoginPassword": {
+            "value": null
+        },
+        "location": {
+            "value": "eastus2"
+        },
+        "clusterWorkerNodeCount": {
+            "value": 2
+        },
+        "clusterKind": {
+            "value": "HADOOP"
+        },
+        "clusterVersion": {
+            "value": "3.6"
+        },
+        "sshUserName": {
+            "value": "rajyach"
+        },
+        "sshPassword": {
+            "value": null
+        }
+    }
+}
