@@ -1,8 +1,6 @@
 bin/
 .settings/
 target/
-/project
 .cache-*
 .classpath
 .project
-
